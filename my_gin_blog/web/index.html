@@ -1,0 +1,57 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 提示框 -->
+    <div id="customToast" class="toast"></div>
+
+    <div class="recom_articles-container" id="articlesContainer">
+        <ul id="navList">
+
+            <div class="nav1">
+                <a href="#" class="cont">文章分类</a>
+                <div class="nav2" id="dynamicDropdown">
+                    <!-- Dynamic content for "文章分类" will be added here -->
+                </div>
+            </div>
+            <div class="nav1">
+                <!-- 新的结构，代表“个人中心” -->
+                <a href="#" class="cont">个人中心</a>
+                <div class="nav2" id="dynamicDropdownPersonal">
+                    <!-- 下拉菜单内容 -->
+                    <a href="login.html" id="loginLink">登录</a>
+                    <a href="javascript:showCustomToast('请在登录后使用本功能')" id="artisLink">查看文章</a>
+                    <a href="javascript:showCustomToast('请在登录后使用本功能')" id="editLink">编写文章</a>
+                </div>
+            </div>
+            
+        </ul>
+        <h2>推荐文章</h2>
+        <ul id="articleList"></ul>
+    </div>
+
+    <!-- Reference the external script files -->
+    <script src="script.js"></script>
+
+    <script>
+        // 在DOM加载完成后执行
+        document.addEventListener('DOMContentLoaded', async () => {
+            await updateDropdown();
+            // Assuming you have a function to fetch recommended articles
+            // Replace fetchRecommendedArticles() with your actual function
+            fetchRecomArticles();
+        });
+        changeLink(); // 修改用户中心下拉菜单的内容
+
+        
+    </script>
+</body>
+</html>

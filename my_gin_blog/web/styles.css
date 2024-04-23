@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.categories-container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+
+
+
+.cate_articles-container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#categoryTitle {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+
+.article-content-container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    white-space: pre-line;
+
+}
+
+#articleTitle {
+    text-align: center;
+    color: #333;
+
+}
+
+#articleContent {
+    margin-top: 20px;
+}
+
+
+/* 注册页面 */
+/* Add any other styling as needed for article content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.register-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.recom_articles-container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#categoryTitle {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.time {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #3498db;; /* Adjust the color if necessary */
+}
+
+
+
+
+/* 导航栏 */
+/* 对导航栏的整体样式进行设置 */
+#navList {
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff; /* 背景颜色调整为白色 */
+    margin: 0 auto; /* 将左右外边距设置为自动，实现水平居中 */
+    padding: 0;
+    margin-bottom: 50px; /* 在 navList 下方添加 50 像素的空间 */
+}
+
+#navList li {
+    list-style: none;
+    display: inline-block; /* 修改为 inline-block，使得导航项水平排列 */
+}
+
+#navList a {
+    color: #3498db; /* 文本颜色调整为蓝色 */
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* 设置导航栏鼠标悬浮时的样式 */
+#navList li:hover, .nav1:hover {
+    background-color: #3498db; /* 悬浮时的背景颜色 */
+}
+
+/* 下拉菜单样式 */
+#navList .nav1 {
+    position: relative;
+    display: inline-block;
+}
+
+#navList .nav2 {
+    display: none;
+    position: absolute;
+    background-color: #f4f4f4; /* 背景颜色调整为灰色 */
+    min-width: 81px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 下拉菜单样式 */
+#navList .nav2 a {
+    color: #333; /* 调整下拉菜单链接颜色 */
+    padding: 8px 12px; /* 调整选项的内边距 */
+    display: block;
+    font-size: 14px; /* 调整字体大小 */
+}
+
+
+#navList .nav2 a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#navList .nav1:hover .nav2 {
+    display: block;
+}
+
+/* 悬浮时整个导航栏文字颜色调整为白色 */
+#navList .nav1:hover a.cont {
+    color: #fff;
+}
+
+
+
+
+/* edit.html相关内容 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* 添加这行样式 */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #217dbb;
+}
+/* edit.html相关内容 */
+/* ... 其他样式 */
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+select,
+input[type="submit"] {
+    height: 40px; /* 根据需要调整高度 */
+}
+
+select {
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+
+
+/* 用户文章页面相关样式 */
+.user_articles-container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#categoryTitle {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+
+
+/* toast.html 相关 */
+
+.toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999; /* 设置z-index使得Toast在最上层 */
+}
+
+/* 入场动画 */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* 退场动画 */
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -40%);
+    }
+}
+
+.toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+    animation: slideIn 0.5s ease-out;
+}

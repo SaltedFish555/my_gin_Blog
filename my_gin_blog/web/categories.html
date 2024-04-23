@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>分类</title>
+</head>
+<body>
+    <div class="categories-container">
+        <h2>文章分类</h2>
+        <ul id="categoryList"></ul>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Assuming you have a function to fetch categories from the backend
+        // Replace fetchCategories() with your actual function
+        // 获取分类列表，如果成功就显示到页面上
+        fetchCategories()
+            .then(categories => displayCategories(categories))
+            .catch(error => {
+                // 处理错误
+                console.error('发生错误:', error.message);
+                // 根据实际情况进行错误处理，例如显示错误消息
+            });
+    </script>
+</body>
+</html>
